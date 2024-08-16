@@ -1,0 +1,74 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1710146030,
+        "narHash": "sha256-SZ5L6eA7HJ/nmkzGG7/ISclqe6oZdOZTNoesiInkXPQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "b1d9ab70662946ef0850d488da1c9019f3a9752a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "git-remote-gitopia": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-fSOS/fk1sjcFHMMx5EnyawKmaqUP9PeidbgGt2f8bdw=",
+        "type": "file",
+        "url": "https://server.gitopia.com/releases/gitopia/git-remote-gitopia/v1.8.0/git-remote-gitopia_1.8.0_linux_amd64.tar.gz"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://server.gitopia.com/releases/gitopia/git-remote-gitopia/v1.8.0/git-remote-gitopia_1.8.0_linux_amd64.tar.gz"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1723635686,
+        "narHash": "sha256-iNYh7Kb0D+MQ8IHM4+8bT1bUS5RNW6gVSDe2yTO1aAk=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0cb2fd7c59fed0cd82ef858cbcbdb552b9a33465",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "git-remote-gitopia": "git-remote-gitopia",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
