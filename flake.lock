@@ -18,18 +18,6 @@
         "type": "github"
       }
     },
-    "git-remote-gitopia": {
-      "flake": false,
-      "locked": {
-        "narHash": "sha256-fSOS/fk1sjcFHMMx5EnyawKmaqUP9PeidbgGt2f8bdw=",
-        "type": "file",
-        "url": "https://server.gitopia.com/releases/gitopia/git-remote-gitopia/v1.8.0/git-remote-gitopia_1.8.0_linux_amd64.tar.gz"
-      },
-      "original": {
-        "type": "file",
-        "url": "https://server.gitopia.com/releases/gitopia/git-remote-gitopia/v1.8.0/git-remote-gitopia_1.8.0_linux_amd64.tar.gz"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1723635686,
@@ -49,7 +37,6 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "git-remote-gitopia": "git-remote-gitopia",
         "nixpkgs": "nixpkgs"
       }
     },
